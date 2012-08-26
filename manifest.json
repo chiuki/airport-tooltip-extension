@@ -1,7 +1,7 @@
 {
   "name": "Airport Tooltip",
   "description": "Add tooltips to 3-letter airport codes",
-  "version": "1.0",
+  "version": "1.0.0",
   "permissions": [
     "tabs", "http://*/*", "https://*/*"
   ],
