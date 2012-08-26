@@ -1,0 +1,22 @@
+{
+  "name": "Airport Tooltip",
+  "description": "Add tooltips to 3-letter airport codes",
+  "version": "1.0",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_title": "Add airport tooltip",
+    "default_icon": "airplane.png"
+  },
+  "icons": {
+    "48": "airplane_48.png",
+    "128": "airplane_128.png"
+  },
+  "manifest_version": 2
+}
